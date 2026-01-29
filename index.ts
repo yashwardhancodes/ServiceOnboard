@@ -18,8 +18,7 @@ if (!fs.existsSync('uploads')) {
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://serviceonboard-1.onrender.com",
-    "https://serviceonboard.onrender.com"
+    "https://sconboard.onrender.com/"
   ],
   credentials: true
 }));
